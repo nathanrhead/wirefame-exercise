@@ -41,31 +41,41 @@ div[id="nav-items"] {
   margin-right: 30px;
 }
 
-#section3 {
+#section2 {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  flex-wrap: wrap;
+}
+
+#section2-1{
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#section2-2 {
+display: flex;
+flex-direction: column;
+
 }
 
 #text {
   width: 455px;
   height: 330px;
-  /* border: 1px solid black; */
   margin-left: 30px;
   overflow: scroll;
+  text-indent: 25px;
 }
 
 #button {
-  position: absolute;
-  bottom: -415px;
-  left: 800px;
   }
 
 button {
   height: 50px;
   width: 150px;
   border-radius: 5px;
+  margin: 15px 0 0 30px;
 }
 
 footer {
